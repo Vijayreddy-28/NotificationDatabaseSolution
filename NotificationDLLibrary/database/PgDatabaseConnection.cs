@@ -8,7 +8,7 @@ namespace NotificationDLLibrary.Database
     
     public class PgDatabaseConnection
     {
-        string connectionString="Host=localhost;Port=5432;Database=dummydb;Username=postgres;Password=ajay";
+        string connectionString="Host=localhost;Port=5432;Database=dummydb;Username=postgres;Password=password";
         NpgsqlConnection connection;
 
         public PgDatabaseConnection()
